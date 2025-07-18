@@ -10,7 +10,7 @@ useEffect(() => {
   return (
     
     <div className='rounded' style={{backgroundColor : color}}>
-      <div className=' flex flex-col justify-center bottom-2 inset-x-0 px-2 rounded ' style={{ backgroundColor: "white", textEmphasisColor:"blue" }}> 
+    <div className=' flex flex-col justify-center bottom-2 inset-x-0 px-2 rounded ' style={{ backgroundColor: "white", textEmphasisColor:"blue" }}> 
     <button onClick={()=>setColor( "blue")}>red</button>
     <button onClick={()=>setColor( "green")}>green</button>
     <button onClick={()=>setColor( "black")}>black</button>
@@ -18,10 +18,10 @@ useEffect(() => {
     <button onClick={()=>setColor( "yellow")}>yellow</button>
     <button onClick={()=>setColor( "orange")}>orange</button>
     
-      <div>
-      </div>
-      </div>
-      </div>
+    <div>
+    </div>
+    </div>
+    </div>
     
   )
 }
